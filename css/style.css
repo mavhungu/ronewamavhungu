@@ -1,3 +1,9 @@
+.header{
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .8)), url('../img/164622.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
 .nav-content{
     z-index: 150;
     position: fixed;
@@ -27,7 +33,6 @@
     outline: none!important;
     transition: all .5s;
 }
-
 .line1, 
 .line2,
 .line3 {
@@ -70,10 +75,7 @@
     transform: scale(150);
 }
 .banner{
-    background:url('../img/164622.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
     height: 100vh;
 }
 .common-title {
