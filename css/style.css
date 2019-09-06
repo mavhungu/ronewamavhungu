@@ -1,8 +1,6 @@
 .header{
-    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .8)), url('../img/164622.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
+    background: linear-gradient(rgba(217, 218, 210, 0.678), rgba(194, 199, 198, 0.089));
+ 
 }
 .nav-content{
     z-index: 150;
