@@ -99,3 +99,28 @@
     transform: translate(-5px, -3px);
     text-shadow: 2px 5px 20px #aaa;
 }
+
+/*{
+    font-size: 13px;
+    line-height: 18px;
+    color: #222222;
+    background: #cacaca;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding: 16px 30px 15px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    box-sizing: border-box !important;
+    width: 100%;
+    display: block;
+    height: 49px;
+}*/
+
