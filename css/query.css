@@ -1,0 +1,14 @@
+@media (min-device-width : 320px) and (max-device-width : 480px) {
+    .me i{
+        display: none!important;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 768px) {
+    
+}
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+    
+}

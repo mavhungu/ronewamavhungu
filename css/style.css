@@ -4,16 +4,16 @@
  
 }
 .btn-primary{
-    background:#009688!important;
-    border-radius: 0px solid #009688!important;
-    border-color: #009688!important;
+    background:#00b8d4 !important;
+    border-radius: 0px solid #00b8d4!important;
+    border-color: #00b8d4 !important;
     color: #251021;
 }
 .btn-primary:hover{
     background:#251021!important;
-    border-radius: 0px solid #009688!important;
-    border-color: #009688!important;
-    color:  #009688;
+    border-radius: 0px solid #4dd0e1 !important;
+    border-color: #4dd0e1!important;
+    color: #4dd0e1;
 }
 
 .carousel-caption a{
