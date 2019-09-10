@@ -3,6 +3,9 @@
     background: linear-gradient(rgba(230, 236, 231, 0.7),rgba(232, 236, 232, 0.8));
  
 }
+.btn-primary{
+    background:#009688!important; 
+}
 .carousel-caption a{
     font-weight: 500;
     font-display: bold;
