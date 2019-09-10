@@ -85,6 +85,11 @@ body {
 #webname h1{
     font-size: 35px;
 }
+.carousel-item {
+  height: 100vh;
+  /*background-color: #777;*/
+  background: linear-gradient(rgba(0,0,0, .4),rgba(0,0,0, .6));
+}
 .carousel-caption p a{
   margin-bottom: 18vh;
 }
