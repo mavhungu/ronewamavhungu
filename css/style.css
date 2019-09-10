@@ -5,15 +5,18 @@
 }
 .btn-primary{
     background:#009688!important;
-    border-radius: 1px solid #009688!important;
+    border-radius: 0px solid #009688!important;
     border-color: #009688!important;
     color: #251021;
 }
 .btn-primary:hover{
     background:#251021!important;
-    border-radius: 1px solid #009688!important;
+    border-radius: 0px solid #009688!important;
     border-color: #009688!important;
     color:  #009688;
+}
+#webname h1{
+    font-size: 35px;
 }
 .carousel-caption a{
     font-weight: 500;

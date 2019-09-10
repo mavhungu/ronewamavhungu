@@ -82,6 +82,9 @@ body {
     line-height: 1.4;
     
   }
+#webname h1{
+    font-size: 35px;
+}
 .carousel-caption p a{
   margin-bottom: 18vh;
 }
