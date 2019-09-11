@@ -16,6 +16,7 @@
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
       <!--- SASS CSS --->
+      <link rel="stylesheet" href="">
       <!--- query CSS --->
       <link rel="stylesheet" href="css/query.css">
 
@@ -80,8 +81,8 @@
                             <h1 class="animated fadeInDown delay-2s">HIGHEST STANDARDS IN DELIVERY</h1>
                             <p class="animated bounceInRight delay-2s">We follow international and local standards.</p>
                             <p class="animated fadeInUp delay-2s">
-                               <a href="#" class="btn btn-outline-primary btn-md text-white" role="button">MORE INFO <i class="fas fa-angle-right fa-1x"></i></a>
-                               <a href="#" class="btn btn-outline-warning btn-md text-white" role=button>Contact Us <i class="fas fa-angle-right fa-1x"></i></a>
+                               <a href="#" class="btn btn-outline-warning btn-md text-white" role="button">MORE INFO <i class="fas fa-angle-right fa-1x"></i></a>
+                               <a href="#" class="btn btn-outline-danger btn-md text-white" role=button>Contact Us <i class="fas fa-angle-right fa-1x"></i></a>
                             </p>
                         </div>
                       </div>
@@ -91,8 +92,8 @@
                             <h1 class="animated fadeInUp delay-2s">LEADING PROVIDER IN SOFTWARE SOLUTIONS</h1>
                             <p class="animated bounceInLeft delay-2s">Each problem is unique and we treat it as such.</p>
                             <p class="animated fadeInDown delay-2s">
-                                <a href="#" class="btn btn-outline-primary btn-md text-white" role="button">MORE INFO <i class="fas fa-angle-right fa-1x"></i></a>
-                                <a href="#" class="btn btn-outline-warning btn-md text-white" role=button>Contact Us <i class="fas fa-angle-right fa-1x"></i></a>
+                                <a href="#" class="btn btn-outline-warning btn-md text-white" role="button">MORE INFO <i class="fas fa-angle-right fa-1x"></i></a>
+                               <a href="#" class="btn btn-outline-danger btn-md text-white" role=button>Contact Us <i class="fas fa-angle-right fa-1x"></i></a>
                             </p>
                         </div>
                       </div>
@@ -102,8 +103,8 @@
                             <h1 class="animated fadeInDown delay-2s">WE ARE A TEAM OF PROFESSIONAL</h1>
                             <p class="animated zoomIn delay-2s">An effective team of qualified and passionate computer artisans.</p>
                             <p class="animated fadeInUp delay-2s">
-                                <a href="#" class="btn btn-outline-primary btn-md text-white" role="button">MORE INFO <i class="fas fa-angle-right fa-1x"></i></a>
-                                <a href="#" class="btn btn-outline-warning btn-md text-white" role=button>Contact Us <i class="fas fa-angle-right fa-1x"></i></a>
+                                <a href="#" class="btn btn-outline-warning btn-md text-white" role="button">MORE INFO <i class="fas fa-angle-right fa-1x"></i></a>
+                                <a href="#" class="btn btn-outline-danger btn-md text-white" role=button>Contact Us <i class="fas fa-angle-right fa-1x"></i></a>
                             </p>
                         </div>
                       </div>
@@ -228,28 +229,29 @@
                       </div>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-6" style="background-color: #251021;">
-                      <div class="">
-                        <form class="my-5 px-5">
+                        <div class="stat m-5" id="status"></div>
+
+                        <form class="my-4 px-5">
                             <div class="form-group">
-                                <input type="text" name="fname" class="form-control form-control-lg" placeholder="First Name" />
+                                <input type="text" name="fname" id="fname" class="form-control form-control-lg" placeholder="First Name" />
                             </div>
                             <div class="form-group">
-                                <select class="form-control form-control-lg">
+                                <select id="pick" class="form-control form-control-lg">
                                     <option selected>Training</option>
                                     <option value="Website">Web Design</option>
                                     <option value="WebApp">Web App Development</option>
-                                    <option value="">Company Profile</option>
+                                    <option value="Profile">Company Profile</option>
                                 </select>
                             </div>
                             <div class="form-group">
-                                <input type="tel" name="fname" class="form-control form-control-lg" placeholder="Phone Number" />
-                            </div>
-                            <div class="form-group">
-                                <button class="btn btn-primary btn-lg mt-4 text-uppercase">submit <i class="fas fa-angle-right ml-2"></i></button>
-                            </div>
-                                
+                                <input type="tel" name="cell_call" id="cell_call" class="form-control form-control-lg" placeholder="Phone Number" />
+                            </div>   
                         </form>
-                      </div>
+                        <div class="form-group m-5">
+                            <a class="btn btn-primary btn-lg text-uppercase" onclick="validateForm();">submit
+                                 <i class="fas fa-angle-right ml-2"></i>
+                            </a>
+                        </div>
                   </div>
               </div>
           </div>
@@ -317,10 +319,12 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/validate.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="js/lightbox-plus-jquery.js"></script>
     <script src="js/lightbox.js"></script>
     <script src="js/scrol.js"></script>
+    
 </body>
 </html>

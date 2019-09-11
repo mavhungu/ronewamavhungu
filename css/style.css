@@ -15,7 +15,12 @@
     border-color: #4dd0e1!important;
     color: #4dd0e1;
 }
-
+.status{
+        background: #9B1B30;
+        color: white;
+        padding: 1em;
+        margin-top: 5px;
+}
 .carousel-caption a{
     font-weight: 500;
     font-display: bold;
@@ -90,9 +95,7 @@
 .change .bg-cover {
     transform: scale(150);
 }
-.banner{
- 
-}
+
 .common-title {
     display: inline-block;
     font-size: 3rem;

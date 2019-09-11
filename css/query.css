@@ -1,6 +1,7 @@
 @media (min-device-width : 320px) and (max-device-width : 480px) {
     .me i{
         display: none!important;
+    
     }
 }
 
