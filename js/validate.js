@@ -15,5 +15,19 @@ function validateForm (){
         $('.stat').addClass('status');
         return false;
     }
+    else{
+        if(phone_call < 10){
+            document.getElementById('status').innerHTML = "less than ten";
+            $('.stat').addClass('status');
+            return false;
+        }else{
+            if(isNaN(phone_call)){
+                document.getElementById('status').innerHTML = "Not valid contact number";
+                $('.stat').addClass('status');
+                return false;
+            }
+        }
+    }
+    
 
 };
