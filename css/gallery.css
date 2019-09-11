@@ -114,7 +114,7 @@
     text-align: center;
 }
 
-.wrapper section>h2 {
+.wrappers section>h2 {
     color: #3c354e;
     font-family: "Roboto", sans-serif;
     font-size: 32px;
@@ -127,7 +127,7 @@
     margin: 115px 0 50px;
 }
 
-.wrapper section>h2::before {
+.wrappers section>h2::before {
     background: #251021 none repeat scroll 0 0;
     bottom: -13px;
     content: "";
@@ -138,7 +138,7 @@
     margin: 0 auto;
 }
 
-.wrapper section>p {
+.wrappers section>p {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
