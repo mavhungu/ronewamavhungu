@@ -86,4 +86,20 @@
 .footer_carosal .carousel .carousel-inner .carousel-item img {
     width: 150px;
 }
+.footer_carosal .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+/* The colour of the indicators */
+.footer_carosal .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+.footer_carosal .carousel-indicators .active {
+background: #707070;
+}
 

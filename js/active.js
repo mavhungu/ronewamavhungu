@@ -1,6 +1,6 @@
  $(document).ready(function () {
 
-     $('.carousel-inner').carousel({
+     $('#carouselExampleControls').carousel({
          loop: true,
          margin: 10,
          nav: true,
