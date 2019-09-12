@@ -1,8 +1,8 @@
 $(document).ready(function() {
     
-    lightbox.option({
+    /*lightbox.option({
         'wrapAround': true
-      });
+      });*/
 
     $(window).scroll(function(){
         let position = $(this).scrollTop();
