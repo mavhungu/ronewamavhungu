@@ -29,7 +29,7 @@ body {
   }
   .carousel-indicators li.active{
     margin-bottom:5px;
-    background: lightgray;
+    background:#5a5a5a;
   }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
