@@ -18,5 +18,9 @@ $(document).ready(function() {
     $('.hamburger-menu').click(function(){
         $('.navigation').toggleClass('change');
     });
+    
+    $(".menu-activator").click(function() {
+        $("body").toggleClass("menu-active");
+      });
 
 });
