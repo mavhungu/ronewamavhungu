@@ -12,9 +12,25 @@ body {
 -------------------------------------------------- */
 
 /* Carousel base class */
-.carousel {
-  margin-bottom: 0rem;
-}
+/*------------------------------- vertical carousel indicators ------------------------------*/
+.carousel-indicators{
+  /*position:absolute;*/
+  
+  bottom: 32px;
+  margin:auto;
+  /*height:20px;
+  /*right:10px; left:auto;*/
+  width:auto;
+  }
+  .carousel-indicators li{
+    display:block; 
+    margin-bottom:5px; 
+    border:1px solid #5a5a5a; 
+  }
+  .carousel-indicators li.active{
+    margin-bottom:5px;
+    background: lightgray;
+  }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
