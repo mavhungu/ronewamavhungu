@@ -154,5 +154,21 @@
     font-size: 14px;
     padding: 14px 20px;
 }
+.exprience {
+    padding: 2vh 0;
+    background: url(https://i.ibb.co/r4xf3sK/newslater.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.exprience:before {
+    content: "";
+    background: rgba(6, 12, 34, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
 
 
