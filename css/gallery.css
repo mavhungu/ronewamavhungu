@@ -61,7 +61,7 @@
     text-align: center;
     margin: 115px 0 50px;
 }
-.wrappers .events_section_area h2::before {
+/*.wrappers .events_section_area h2::before {
     background: #251021 none repeat scroll 0 0;
     bottom: -13px;
     content: "";
@@ -70,7 +70,7 @@
     position: absolute;
     width: 75px;
     margin: 0 auto;
-}
+}*/
 .wrappers .events_section_area p {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
