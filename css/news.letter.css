@@ -43,3 +43,24 @@
   background: #25101c94;
   color: #fff;
 }
+@media only screen and (min-width: 768px) {
+    .subscribe input {
+      min-width: 400px;
+  }
+  }
+  
+  @media (min-device-width : 320px) and (max-device-width : 480px) {
+    
+    .subscribe button {
+      border: 0;
+      padding: 9px 25px;
+      cursor: pointer;
+      background: #3e8ccca0;
+      color: #fff;
+      transition: all 0.3s ease;
+      outline: none;
+      font-size: 14px;
+      border-radius: 50px;
+      margin-top: 12px;
+    }
+  }
