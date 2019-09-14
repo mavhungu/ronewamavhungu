@@ -80,61 +80,71 @@
                     <h2 class="text-center">Contact Us</h2>
                     <p class="text-center">Do you have any suggestion, feedback or idea that you want to share with us? Feel free to share.</p>
                 </div>
-        
-                <form method="post" action="#">
+                    <div class="col-auto justify-content-center align-items-center text-center">
+                        <button class="btn btn-lg" data-target="#contact_form">GET IN TOUCH</button>
+                    </div>
+                <!--form method="post" action="#">
                     <div class="form-row justify-content-center">
                         <div class="col-auto">
-                            <div class="form-group">
+                            <div class="form-group mb-4">
+                                <input type="text" name="client_name" class="form-control form-control-lg" placeholder="Enter your Name">
+                            </div>
+                            <div class="form-group mb-4">
                                 <input type="text" class="form-control form-control-lg" placeholder="Enter your Email">
                             </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control form-control-lg" placeholder="Enter your Email">
+                            <div class="form-group mb-4">
+                                <textarea class="form-control" rows="8" id="message" placeholder="Enter your Message"></textarea>
                             </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control form-control-lg" placeholder="Enter your Email">
+                            <div class="col-auto justify-content-center align-items-center text-center">
+                                <button class="btn-block" data-target="#contact_form">Subscribes</button>
                             </div>
-                            <button type="submit" data-target="contact_form">Subscribe</button>
-                           
-                        </div>
-                        <div class="col-auto">
-                            <button type="submit" data-target="contact_form">Subscribe</button>
                         </div>
                     </div>
-                </form>
+                </form-->
             </div>
         </section>
-        <!---->
+        <!-- End of subscribe section -->
+
         <!--- contact_form-->
-        <section class="contact_form">
+        <section class="pb-0 contact_form" id="contact_form">
             <div class="container">
                 <div class="row">
-                    <div class="col">
-                        <p class="mb-1">
-                            GET IN TOUCH
-                            <h3 class="">CONTACT US</h3>
-                        </p>
-                        
-                    </div>
-                </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p class="">
+                    <div class="col-lg-6">
+                        <h3 class="my-0 fw-medium text-primary text-uppercase">GET IN TOUCH</h3>
+                            <h2 class="mb-5 fw-medium text-secondary text-uppercase">CONTACT US</h2>
+                            <p class="mb-5 fs--1">
                                 Sed eu sapien accumsan, rutrum velit et, imperdiet elit. Vivamus posuere eleifend 
                                 enim auctor congue. Vivamus sed lacus ex. Phasellus porta
                                 metus dui, eget porttitor dolor pharetra in. Fusce consequat convallis tincidunt.
                             </p>
-                        </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
-
-                        </div>
-                        <div class="col-md-6">
-                            
-                        </div>
-                    </div>
+                </div>
             </div>
         </section>
+            <div class="container-fluid ">
+                <div class="row no-qutters">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6 bg-blue-light overflow-hidden">
+                        <div class="row h-100 align-items-center">
+                            <form class="col px-5 px-lg-8 py-6 py-lg-0">
+                                <div class="form-group mb-4">
+                                    <input type="text" name="client_name" id="name" class="form-control form-control-lg" placeholder="Enter your Name">
+                                </div>
+                                <div class="form-group mb-4">
+                                    <input type="email" name="email" id="email"class="form-control form-control-lg" placeholder="Enter your Email">
+                                </div>
+                                <div class="form-group mb-4">
+                                    <textarea class="form-control" rows="8" id="message" placeholder="Enter your Message"></textarea>
+                                </div>
+                                <div class="justify-content-center align-items-center text-center">
+                                    <button type="button" class="btn btn-primary btn-block" data-target="#contact_form">SEND <i class="far fa-paper-plane ml-2" style="transform: rotateX(10deg);"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
 
     <!-- footer section -->
         <footer>
