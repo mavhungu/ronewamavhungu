@@ -59,7 +59,7 @@
   border-radius: 50px;
   font-size: 14px;
 }
-.subscribe button {
+.subscribe button a {
   border: 0;
   padding: 9px 25px;
   cursor: pointer;
@@ -70,10 +70,14 @@
   font-size: 14px;
   border-radius: 50px;
   align-content: center;
+  text-decoration: none;
+  scroll-behavior: smooth;
 }
-.subscribe button:hover {
+.subscribe button a:hover {
   background: #25101c94;
   color: #fff;
+  text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 @media only screen and (min-width: 768px) {
