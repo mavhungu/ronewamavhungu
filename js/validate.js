@@ -16,7 +16,7 @@ function validateForm (){
         return false;
     }
     else{
-        if(count(phone_call <= 9)){
+        if(phone_call <= 9){
             document.getElementById('status').innerHTML = "less than ten";
             $('.stat').addClass('status');
             return false;
@@ -29,7 +29,30 @@ function validateForm (){
         }
     }
 
+    document.getElementById('contact-form').submit();
     
+    formData = {
+    'fullname'     : $('input[name=fullname]').val(),
+    'pick'         : $('select[name=pick]').val(),
+    'cell_call'    : $('input[name=cell_call]').val()
+};
+
+$.ajax({
+    url : "mail.php",
+    type: "POST",
+    data : formData,
+    success: function(data, textStatus, jqXHR)
+    {
+
+        $('#status').text(data.message);
+        if (data.code) //If mail was sent successfully, reset the form.
+            $('#contact-form').closest('form').find("input[type=text]").val("");
+    },
+    error: function (jqXHR, textStatus, errorThrown)
+    {
+        $('#status').text(jqXHR);
+    }
+});
     
 
 };
