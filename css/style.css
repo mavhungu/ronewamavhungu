@@ -170,5 +170,12 @@
     left: 0;
     right: 0;
   }
+.fw-medium {
+    font-weight: 500!important;
+}.text-primary {
+    color: #f12639!important;
+}.text-uppercase {
+    text-transform: uppercase!important;
+}
 
 
