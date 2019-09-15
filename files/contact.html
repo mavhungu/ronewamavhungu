@@ -105,34 +105,7 @@
         </section>
         <!-- End of subscribe section -->
 
-<style>
-.fs-1 {
-    font-size: 1.5rem!important;
-}.fw-medium {
-    font-weight: 500!important;
-}.text-primary {
-    color: #f12639!important;
-}.text-uppercase {
-    text-transform: uppercase!important;
-}.mb-0, .my-0 {
-    margin-bottom: 0!important;
-}.mt-0, .my-0 {
-    margin-top: 0!important;
-}.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-family: Oswald,'Helvetica Neue',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
-}
-.fs--1 {
-    font-size: .9375rem!important;
-}.mb-6, .my-6 {
-    margin-bottom: 4.5rem!important;
-}
-.no-qutters{
-    background: ghostwhite;
-}
-</style>
-
-
-        <!--- contact_form-->
+        <!--- contact_form -->
         <section class="pb-0 contact_form" id="contact_form">
             <div class="container">
                 <div class="row mt-5 mb-5">
@@ -145,31 +118,38 @@
                     </div>
                 </div>
             </div>
-        </section>
+        
             <div class="container-fluid">
                 <div class="row no-qutters">
                     <div class="col-md-6"></div>
                     <div class="col-md-6 bg-blue-light overflow-hidden">
-                        <div class="row h-100 align-items-center">
+                        <!--div class="row align-items-center"-->
                             <form class="col px-5 px-lg-8 py-6 py-lg-0 mt-5">
                                 <div class="form-group mb-4">
-                                    <input type="text" name="client_name" id="name" class="form-control form-control-lg" placeholder="Full Name">
+                                    <input type="text" name="client_name" id="client_name" class="form-control form-control-lg" placeholder="Full Name"  />
+                                    <span class="btn-block fullnames" id="fullnames" style="background-color:red;"></span>
                                 </div>
                                 <div class="form-group mb-4">
-                                    <input type="email" name="email" id="email"class="form-control form-control-lg" placeholder="Email address">
+                                    <input type="email" name="email" id="email"class="form-control form-control-lg" placeholder="Email address" />
+                                    <span class="e-mail" id="e-mail"></span>
                                 </div>
-                                <div class="form-group mb-4">
-                                    <textarea class="form-control" rows="8" id="message" placeholder="Message"></textarea>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="8" name ="message" id="message" placeholder="Message" ></textarea>
+                                    <span class="message" id="message"></span>
                                 </div>
-                                <div class="justify-content-center align-items-center text-center text-white mb-5">
-                                    <button type="button" class="btn btn-danger btn-block text-capitalize">SEND <i class="far fa-paper-plane ml-2" style="transform: rotateX(10deg);"></i></button>
-                                </div>
+                                
                             </form>
-                        </div>
+                            <div class="form-group m-5">
+                                <button class="btn btn-danger btn-block text-capitalize" onclick="validateForm();">Submit 
+                                    <i class="far fa-paper-plane ml-2"></i>
+                                </button>
+                            </div>
+                        <!--/div-->
                     </div>
                 </div>
             </div>
-        
+        </section>
+        <!-- End of contact_form section-->
 
     <!-- footer section -->
         <footer>
@@ -180,7 +160,6 @@
                             <div class="col-md-3 my-5">
                                 <h5 class="text-white">RRAM TECHNOLOGY
                                 </h5>
-                                
                                 <p class="text-light text-align-center mt-4">We employ competent staff members, who provide a useful resource operationally, as well as a pool from which to develop future partners of the firm.</p>
                             </div>
                             <div class="col-md-3"></div>
@@ -231,10 +210,12 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="../js/contact.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="../js/lightbox-plus-jquery.js"></script>
     <script src="../js/lightbox.js"></script>
     <script src="../js/scrol.js"></script>
+
 </body>
 </html>

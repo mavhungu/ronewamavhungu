@@ -28,6 +28,12 @@
   font-weight: 500;
   color: #9195a2;
 }
+.status{
+  background: #9B1B30;
+  color: white;
+  padding: 1em;
+  margin-top: 5px;
+}
 .subscribe {
     padding: 25vh 0;
     background: url(https://i.ibb.co/r4xf3sK/newslater.jpg) center center no-repeat;
@@ -77,6 +83,29 @@
   color: #fff;
   text-decoration: none;
 }
+.fs-1 {
+  font-size: 1.5rem!important;
+}.fw-medium {
+  font-weight: 500!important;
+}.text-primary {
+  color: #f12639!important;
+}.text-uppercase {
+  text-transform: uppercase!important;
+}.mb-0, .my-0 {
+  margin-bottom: 0!important;
+}.mt-0, .my-0 {
+  margin-top: 0!important;
+}.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: Oswald,'Helvetica Neue',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+.fs--1 {
+  font-size: .9375rem!important;
+}.mb-6, .my-6 {
+  margin-bottom: 4.5rem!important;
+}
+.no-qutters{
+  background: ghostwhite;
+}
 
 @media only screen and (min-width: 768px) {
   .subscribe input {
@@ -101,7 +130,6 @@
     margin-bottom: 10px;
     margin-top: 35px;
   }
-  
   .subscribe button a {
     border: 0;
     padding: 9px 25px;
