@@ -16,7 +16,7 @@ function validateForm (){
         return false;
     }
     else{
-        if(phone_call < 10){
+        if(count(phone_call <= 9)){
             document.getElementById('status').innerHTML = "less than ten";
             $('.stat').addClass('status');
             return false;
