@@ -158,7 +158,9 @@ body {
 }
 @media (min-width: 85.375em) {
 
-  
+  .carousel-caption p a{
+    margin-bottom: 25vh;
+  }
 }
 @media (min-width: 120em) {
   .carousel-caption p a{
