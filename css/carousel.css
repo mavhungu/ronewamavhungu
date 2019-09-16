@@ -122,6 +122,8 @@ body {
   }
 }
 
+@media (min-width: 48em) {}
+
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
@@ -146,7 +148,18 @@ body {
   min-width: 100%;
   height: 100vh;
 }
-      .featurette-heading {
+.featurette-heading {
     font-size: 60px;
   }
 }
+@media (min-width:78em) {
+  .carousel-caption p a{
+    margin-bottom: 35vh;
+  }
+}
+@media (min-width: 86em) {
+  .carousel-caption p a{
+    margin-bottom: 35vh;
+  }
+}
+@media (min-width: 92em) {}

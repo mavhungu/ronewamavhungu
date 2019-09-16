@@ -29,6 +29,9 @@ function validateForm (){
         }
     }
 
+    document.getElementById('status').innerHTML = "Sending...";
+    $('.stat').addClass('status');
+
     document.getElementById('contact-form').submit();
     
     formData = {
