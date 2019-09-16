@@ -33,11 +33,11 @@ body {
   }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 3rem;
+  bottom: 6rem;
   z-index: 10;
 }
 .carousel-caption p a{
-  margin-bottom: 18vh;
+  margin-bottom: 35vh;
 }
 
 /* Declare heights because of positioning of img element */
@@ -122,11 +122,13 @@ body {
   }
 }
 
-@media (min-width: 48em) {}
-
 @media  (min-width: 64em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
   }
 .carousel-item {
   height: 100vh;
