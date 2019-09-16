@@ -33,12 +33,11 @@ body {
   }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 6rem;
+  bottom: 3rem;
   z-index: 10;
 }
 .carousel-caption p a{
-  margin-bottom: 35vh;
-  background-color: limegreen;
+  margin-bottom: 18vh;
 }
 
 /* Declare heights because of positioning of img element */
@@ -99,10 +98,6 @@ body {
     line-height: 1.4;
     
   }
-  .carousel-caption {
-    bottom: 2rem;
-    z-index: 10;
-  }
 #webname h1{
     font-size: 28px;
 }
@@ -127,13 +122,11 @@ body {
   }
 }
 
-@media  (min-width: 64em) {
+@media (min-width: 48em) {}
+
+@media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
-  }
-.carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
   }
 .carousel-item {
   height: 100vh;
@@ -159,17 +152,6 @@ body {
     font-size: 60px;
   }
 }
-
-@media (min-width: 85.375em) {
-
-  
- 
-}
-@media (min-width: 120em) {
-  
-}
-@media (min-width: 160em) {
-  .carousel-caption h1{
-    background-color: lightblue;
-  }
-}
+@media (min-width:78em) {}
+@media (min-width: 86em) {}
+@media (min-width: 92em) {}
