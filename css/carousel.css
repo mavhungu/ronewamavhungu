@@ -38,6 +38,7 @@ body {
 }
 .carousel-caption p a{
   margin-bottom: 35vh;
+  background-color: limegreen;
 }
 
 /* Declare heights because of positioning of img element */
@@ -97,6 +98,10 @@ body {
     font-size: 1.25rem;
     line-height: 1.4;
     
+  }
+  .carousel-caption {
+    bottom: 2rem;
+    z-index: 10;
   }
 #webname h1{
     font-size: 28px;
