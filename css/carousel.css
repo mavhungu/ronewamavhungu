@@ -124,7 +124,7 @@ body {
 
 @media (min-width: 48em) {}
 
-@media (min-width: 62em) {
+@media  (min-width: 64em) {
   .featurette-heading {
     margin-top: 7rem;
   }
@@ -152,12 +152,12 @@ body {
     font-size: 60px;
   }
 }
-@media (min-width:78em) {
- 
-  
-}
+
 @media (min-width: 85.375em) {
 
+  .carousel-caption h1{
+    background-color: chartreuse;
+  }
  
 }
 @media (min-width: 120em) {
