@@ -155,11 +155,14 @@ body {
 
 @media (min-width: 85.375em) {
 
-  .carousel-caption h1{
-    background-color: chartreuse;
-  }
+  
  
 }
 @media (min-width: 120em) {
   
+}
+@media (min-width: 160em) {
+  .carousel-caption h1{
+    background-color: lightblue;
+  }
 }
