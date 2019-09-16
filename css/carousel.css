@@ -164,7 +164,7 @@ body {
 }
 @media (min-width: 120em) {
   .carousel-caption p a{
-    margin-bottom: 25vh;
+    margin-bottom: 35vh;
   }
   .carousel-item > img {
     position: absolute;
