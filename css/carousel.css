@@ -158,8 +158,17 @@ body {
 }
 @media (min-width: 85.375em) {
 
- 
+  
 }
 @media (min-width: 120em) {
-  
+  .carousel-caption p a{
+    margin-bottom: 25vh;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 100vh;
+  }
 }
