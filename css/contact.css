@@ -103,9 +103,6 @@
 }.mb-6, .my-6 {
   margin-bottom: 4.5rem!important;
 }
-.no-qutters{
-  background: ghostwhite;
-}
 
 @media only screen and (min-width: 768px) {
   .subscribe input {
@@ -117,6 +114,10 @@
   text-align: center;
   font-weight: 700;
   margin-bottom: 10px;
+}
+.no-qutters{
+  background-image: url('../img/164622.jpg');
+  clip-path: polygon(40% 0, 100% 0, 100% 100%, 52% 100%);
 }
 }
 
@@ -142,5 +143,8 @@
     border-radius: 50px;
     margin-top: 12px;
     text-decoration: none;
+  }
+  .no-qutters{
+    background-image: url('../img/164622.jpg');
   }
 }
