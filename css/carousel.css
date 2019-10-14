@@ -44,7 +44,56 @@ body {
 .carousel-item {
   height: 100vh;
   /*background-color: #777;*/
-  background: linear-gradient(rgba(0,0,0, .4),rgba(0,0,0, .6));
+  /*background: linear-gradient(rgba(0,0,0, .4),rgba(0,0,0, .6));*/
+  background: rgba(6, 12, 34, 0.6);
+}
+#first_slide{
+  background:url("https://spyre-theme.bitbucket.io/v1.2.0/assets/img/img-39.jpg") center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  min-height: 100vh;
+}
+#first_slide:before{
+  content: "";
+  background: rgba(6, 12, 34, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#second_slide{
+  background:url("https://spyre-theme.bitbucket.io/v1.2.0/assets/img/img-40.jpg") center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  min-height: 100vh;
+}
+#second_slide:before{
+  content: "";
+  background: rgba(6, 12, 34, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#third_slide{
+  background:url("https://spyre-theme.bitbucket.io/v1.2.0/assets/img/img-38.jpg") center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  min-height: 100vh;
+}
+#third_slide:before{
+  content: "";
+  background: rgba(6, 12, 34, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .carousel-item > img {
   position: absolute;
