@@ -3,6 +3,9 @@
         display: none!important;
     
     }
+    .events_section_area #projects{
+    flex-direction: column-reverse;
+}
     
 }
 

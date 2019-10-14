@@ -116,6 +116,9 @@
     transform: translate(-5px, -3px);
     text-shadow: 2px 5px 20px #aaa;
 }
+#webname h1{
+    font-size: 28px;
+}
 .me{
     padding-right: 49px;
     color: #251021;
