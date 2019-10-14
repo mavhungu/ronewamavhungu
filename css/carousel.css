@@ -37,7 +37,8 @@ body {
   z-index: 10;
 }
 .carousel-caption p a{
-  margin-bottom: 18vh;
+  margin-bottom: 10vh;
+  margin-top: 3rem;
 }
 
 /* Declare heights because of positioning of img element */
