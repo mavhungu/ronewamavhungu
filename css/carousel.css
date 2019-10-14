@@ -40,6 +40,11 @@ body {
   margin-bottom: 10vh;
   margin-top: 3rem;
 }
+.carousel-caption p a:hover{
+transition: all 2s;
+transform: translate(12px, 50%);
+}
+
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
